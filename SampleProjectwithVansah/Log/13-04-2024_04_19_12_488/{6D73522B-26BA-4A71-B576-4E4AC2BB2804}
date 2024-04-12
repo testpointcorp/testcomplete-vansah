@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="2571"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object left" type="I" value="-11"/>
+					<Prp name="object name" type="S" value="Aliases.browser.BrowserWindow"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="-11"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="1539"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45394.7634183449"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The 'Google - Google Chrome' window was maximized."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.BrowserWindow&#xA;(Sys.Browser(&quot;chrome&quot;).BrowserWindow(0))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="45395.1800855787"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="message" type="S" value="Sending the 'POST' request to 'https://prod.vansahnode.app/api/v1/run'."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="45395.1801162847"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="17"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 7">
+			<Prp name="message" type="S" value="result : false"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="45395.1801321875"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="message" type="S" value="The 'POST' request to 'https://prod.vansahnode.app/api/v1/run' was sent with the status code 200."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="Response status text: OK&#xA;&#xA;Response body:&#xA;{&quot;success&quot;:true,&quot;message&quot;:&quot;A new Test Run created.&quot;,&quot;data&quot;:{&quot;run&quot;:{&quot;identifier&quot;:&quot;30b88f1f-f8f9-11ee-8ddc-d2c3b1f346d8&quot;,&quot;caseTestRunVersion&quot;:4,&quot;key&quot;:291,&quot;createdAt&quot;:1712945964,&quot;updatedAt&quot;:1712945964,&quot;createdBy&quot;:{&quot;jiraAccountId&quot;:&quot;619dc36bd5986c006ad17b5e&quot;},&quot;updatedBy&quot;:{&quot;jiraAccountId&quot;:&quot;619dc36bd5986c006ad17b5e&quot;},&quot;logs&quot;:[],&quot;overallResult&quot;:{&quot;id&quot;:3,&quot;name&quot;:&quot;UNTESTED&quot;},&quot;properties&quot;:{&quot;environment&quot;:null,&quot;release&quot;:null,&quot;sprint&quot;:null},&quot;asset&quot;:{&quot;identifier&quot;:&quot;e1998913-ecef-11ee-8ddc-d2c3b1f346d8&quot;,&quot;name&quot;:&quot;TEST-2&quot;,&quot;type&quot;:&quot;issue&quot;}}}}&#xA;&#xA;All response headers:&#xA;Connection: keep-alive&#xA;Date: Fri, 12 Apr 2024 18:19:24 GMT&#xA;Content-Length: 523&#xA;Content-Type: application/json; charset=utf-8&#xA;ETag: W/&quot;20b-+PkZnWqbEtNR/KmMtFRpgupmMoI&quot;&#xA;Server: cloudflare&#xA;Vary: Accept-Encoding&#xA;Strict-Transport-Security: max-age=31536000; includeSubDomains&#xA;Referrer-Policy: origin&#xA;Access-Control-Allow-Origin: https://prodconfluence.vansahnode.app&#xA;Access-Control-Allow-Methods: GET, POST, OPTIONS, PUT, PATCH, DELETE&#xA;Access-Control-Allow-Headers: X-Requested-With,content-type&#xA;Access-Control-Allow-Credentials: true&#xA;X-acpt: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb20udmFuc2FoLmppcmEudmFuc2FoLXBsdWdpbiIsImlhdCI6MTcxMjk0NTk2Mywic3ViIjoiNjE5ZGMzNmJkNTk4NmMwMDZhZDE3YjVlIiwiZXhwIjoyNzEyOTQ1OTYzLCJhdWQiOlsiOWZmZDNiNTEtM2E2Ni0zZmU1LTg1OTMtNWM4MmY4NTFhMzdjIl0sInR5cGUiOiJjb25uZWN0In0.42cMxTsdcr0kxZqU3NfSH0JT7Iti4N1mGmX-PguJPNc&#xA;CF-Cache-Status: DYNAMIC&#xA;Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v4?s=hGlaSwYys2IS3BciHmaIfL5EUpiM%2BkYjA0X%2F7F3wWa%2Fsbjyu4pCUu4hvbd0tRHe2SLQio4R%2Bp5VbxyFROZjYOjP4cvG%2BrwWSR5D7Wcz08wdQJ8lCKSK3wi346PQwJ46VEemBZ60%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}&#xA;NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}&#xA;CF-RAY: 8735396dea94467f-SIN&#xA;alt-svc: h3=&quot;:443&quot;; ma=86400&#xA;&#xA;"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="45395.1801320023"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="17"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="1842"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object left" type="I" value="627"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageGoogle.formSearch.textareaSearch"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="763"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="804"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45394.7634353704"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="'this is testing[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageGoogle.formSearch.textareaSearch&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.google.com/&quot;).FindElement(&quot;#APjFqb&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="45395.1801150463"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{2052BBA2-8FA1-4429-8DC0-81E9A32FBC91}"/>
+			<Prp name="unit 1" type="S" value="{8FC0F36D-75E1-43D5-8B68-B2B608DFDC0B}"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="stack"/>
+		<Node name="message 0">
+			<Prp name="message" type="S" value="Navigating to the https://www.google.com/ page."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="URL: https://www.google.com/&#xA;&#xA;Aliases.browser"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="45395.1800847685"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="1842"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object left" type="I" value="627"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageGoogle.formSearch.textareaSearch"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="763"/>
+					<Prp name="click point y" type="I" value="783"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="804"/>
+					<Prp name="click point x" type="I" value="1234"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45394.7634331944"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (405, 13) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageGoogle.formSearch.textareaSearch&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.google.com/&quot;).FindElement(&quot;#APjFqb&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="45395.1801007639"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="1992"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object left" type="I" value="569"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageGoogle.formSearch.panel"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="746"/>
+					<Prp name="click point y" type="I" value="780"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="815"/>
+					<Prp name="click point x" type="I" value="1280"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45394.763428912"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (474, 23) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageGoogle.formSearch.panel&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.google.com/&quot;).FindElement(&quot;//div[contains(@class, 'SDkEP')]&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="45395.180096875"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

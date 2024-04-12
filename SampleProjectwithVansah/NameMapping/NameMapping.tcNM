@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{D8FBE312-1047-4EA1-96D3-62C652DAE1D0}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{B3ACF638-1554-4F5A-AF41-0470E0502C48}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{F247BA84-84F0-48AB-8953-19E124DDBB9D}">
+								<Image FileName="227186863" Left="-11" Top="-11" Right="2571" Bottom="1539" />
+								<TypeInfo Item0="{3363EF72-2998-4CDA-B152-0146FCB3B216}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageGoogle" Key="{D492C33C-61E0-497C-9124-7240BC1660AF}">
+								<Image FileName="-1656410005" Left="11" Top="192" Right="2571" Bottom="1539" />
+								<TypeInfo Item0="{6B8F8947-0998-43C3-97E9-EC46A78A5B63}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.google.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formSearch" Key="{8527F42A-7E0E-48A3-B01A-8B82A97A93E6}">
+										<Image FileName="-1656410005" Left="41" Top="747" Right="2542" Bottom="959" />
+										<TypeInfo Item0="{5AE48A27-B74B-4560-9450-0C9DE64633A4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[@role=&apos;search&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textareaSearch" Key="{E09F17D3-737A-49C3-BCFE-84737A4D0977}">
+										<Image FileName="-1656410005" Left="925" Top="774" Right="1591" Bottom="815" />
+										<TypeInfo Item0="{B7A41089-E57D-480A-8B31-2F2A50615173}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#APjFqb" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea[@name=&apos;q&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea[@aria-label=&apos;Search&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea[@title=&apos;Search&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea[contains(@class, &apos;gLFyf&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//textarea" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{09AC9B99-E8D1-42E6-85E4-4A9C571FDA51}">
+										<Image FileName="-1899436872" Left="814" Top="721" Right="1688" Bottom="790" />
+										<TypeInfo Item0="{18EEC7F7-77CE-4088-8042-B09E03057FD5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;SDkEP&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@role=&apos;search&apos;]/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageGoogle2" Key="{CBAEAA31-F9E4-42D7-8BC7-144B099CB2BD}">
+								<TypeInfo Item0="{7E151A41-4928-4E5E-BBA5-33D17B27C34B}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.google.com/search*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeThisIsATest" Key="{96C8E384-EA03-4886-985F-F40CCDBF9E92}">
+										<Image FileName="484407229" Left="345" Top="555" Right="543" Bottom="602" />
+										<TypeInfo Item0="{18EEC7F7-77CE-4088-8042-B09E03057FD5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h3[.=&apos;This is a test&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div//a/h3[contains(@class, &apos;LC20lb&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;This_is_a_test&apos;)]/h3" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div//a/h3" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageThisIsTestingGoogleSearch" Key="{028897D9-95D9-4BFE-A4F5-FE6135BE79E7}">
+								<TypeInfo Item0="{7E151A41-4928-4E5E-BBA5-33D17B27C34B}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://en.wikipedia.org/wiki/This_is_a_test" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeArticle" Key="{8AE82DA3-79E9-4422-9480-F7A43468C646}">
+										<Image FileName="-1077205123" Left="558" Top="375" Right="702" Bottom="375" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Article&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]/div//nav/div[@id=&apos;p-associated-pages&apos;]//ul[contains(@class, &apos;vector-menu-content-list&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;p-associated-pages&apos;]//ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]/div//nav/div[@id=&apos;p-associated-pages&apos;]//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCaTalk" Key="{E475C2A3-298F-4AF8-88E5-470EA87246A5}">
+										<Image FileName="-1077205123" Left="652" Top="375" Right="689" Bottom="429" />
+										<Selectors>
+											<Selector>
+												<Value Value="#ca-talk" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTalk" Key="{1FB3104A-1BB3-43AC-828E-2F150D457EA4}">
+										<Image FileName="-1077205123" Left="652" Top="393" Right="689" Bottom="417" />
+										<TypeInfo Item0="{18EEC7F7-77CE-4088-8042-B09E03057FD5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[@id=&apos;ca-talk&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]/div//nav//ul/li[@id=&apos;ca-talk&apos;]/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{B3ACF638-1554-4F5A-AF41-0470E0502C48}">
+			<Child Name="BrowserWindow" Owner="{F247BA84-84F0-48AB-8953-19E124DDBB9D}" />
+			<Child Name="pageGoogle" Owner="{D492C33C-61E0-497C-9124-7240BC1660AF}">
+				<Child Name="formSearch" Owner="{8527F42A-7E0E-48A3-B01A-8B82A97A93E6}">
+					<Child Name="textareaSearch" Owner="{E09F17D3-737A-49C3-BCFE-84737A4D0977}" />
+					<Child Name="panel" Owner="{09AC9B99-E8D1-42E6-85E4-4A9C571FDA51}" />
+				</Child>
+			</Child>
+			<Child Name="pageGoogle2" Owner="{CBAEAA31-F9E4-42D7-8BC7-144B099CB2BD}">
+				<Child Name="textnodeThisIsATest" Owner="{96C8E384-EA03-4886-985F-F40CCDBF9E92}" />
+			</Child>
+			<Child Name="pageThisIsTestingGoogleSearch" Owner="{028897D9-95D9-4BFE-A4F5-FE6135BE79E7}">
+				<Child Name="textnodeArticle" Owner="{8AE82DA3-79E9-4422-9480-F7A43468C646}">
+					<Child Name="textnodeCaTalk" Owner="{E475C2A3-298F-4AF8-88E5-470EA87246A5}">
+						<Child Name="textnodeTalk" Owner="{1FB3104A-1BB3-43AC-828E-2F150D457EA4}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

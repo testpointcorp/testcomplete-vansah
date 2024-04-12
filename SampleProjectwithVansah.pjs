@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{BB4A65FC-F523-4E2A-B857-419C116F7A3D}">
+	<children>
+		<child name="SampleProjectwithVansah" key="{9C68FC8D-8590-4083-8184-B3E3723AB89F}" path="SampleProjectwithVansah\SampleProjectwithVansah.mds" />
+	</children>
+	<testItems key="{464E006F-0BAA-45AF-8BE9-A41AB17D63BE}">
+		<children>
+			<testItem key="{9C68FC8D-8590-4083-8184-B3E3723AB89F}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{B9FCA662-D728-4058-98C7-D86144F562A0}" />
+	<analysis key="{B2AC2E60-A147-4DD2-B6D2-35F730075E38}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

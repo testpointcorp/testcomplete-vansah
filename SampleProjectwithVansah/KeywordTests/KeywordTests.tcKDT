@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="verify_google_search_functionality" key="{2052BBA2-8FA1-4429-8DC0-81E9A32FBC91}" path="verify_google_search_functionality.tcKDTest" />
+		<child name="verfiy_google_webapp" key="{B4B32AE3-911A-42BA-B461-8F1B67D29F5F}" path="verfiy_google_webapp.tcKDTest" />
+	</children>
+</Root>

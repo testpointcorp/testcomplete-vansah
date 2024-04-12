@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 0">
+			<Prp name="message" type="S" value="Unable to navigate to the https://www.google.com/ page."/>
+			<Prp name="date" type="D" value="45395.1862371181"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="stack end" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture3.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="URL: https://www.google.com/&#xA;Process ID: 14892&#xA;Process Command Line: &quot;C:\Users\onesh\AppData\Local\Google\Chrome\Application\chrome.exe&quot; --profile-directory=&quot;Default&quot;&#xA;Info: Cannot find any existing or open blank page.&#xA;&#xA;Check whether TestComplete Chrome Extension is installed and enabled.&#xA;&#xA;Aliases.browser"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="message" type="S" value="Sending the 'POST' request to 'https://prod.vansahnode.app/api/v1/run'."/>
+			<Prp name="date" type="D" value="45395.186237581"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="message" type="S" value="result : false"/>
+			<Prp name="date" type="D" value="45395.1862373843"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="message" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+			<Prp name="date" type="D" value="45395.1862580208"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture4.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The test run has stopped because --&lt;/p&gt;&lt;ul&gt;&lt;li&gt;An error message was posted to the log and&lt;/li&gt;&lt;li&gt;The &lt;a href=&quot;aqa-help://6090&quot;&gt;On error&lt;/a&gt; project property is set to &quot;Stop project&quot; or &quot;Stop current item&quot;.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If you don't want the test to stop on errors, set this property (&lt;b&gt;Project Editor &amp;rArr; Properties &amp;rArr; Playback&lt;/b&gt;), to &quot;Continue running&quot; or change your test commands so that they do not post errors to the log automatically. For example, if a window or process was not found, use WaitWindow, WaitProcess or similar methods to get the needed object.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;aqa-help://2207&quot;&gt;Read More&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack beginning" type="I" value="1"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="stacktext" type="S" value="verify_google_search_functionality()"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="0"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="item 0">
+			<Prp name="stacktext" type="S" value="verify_google_search_functionality()"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="0"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="message" type="S" value="The 'POST' request to 'https://prod.vansahnode.app/api/v1/run' was sent with the status code 400."/>
+			<Prp name="date" type="D" value="45395.1862510532"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="remarks" type="S" value="Response status text: Bad Request&#xA;&#xA;Response body:&#xA;{&quot;success&quot;:false,&quot;message&quot;:&quot;Project not found.&quot;,&quot;data&quot;:[],&quot;errorCode&quot;:1306}&#xA;&#xA;All response headers:&#xA;Connection: keep-alive&#xA;Date: Fri, 12 Apr 2024 18:28:13 GMT&#xA;Content-Length: 75&#xA;Content-Type: application/json; charset=utf-8&#xA;ETag: W/&quot;4b-laaFooSIgeMwYI/Ftl2tKffC0Qo&quot;&#xA;Server: cloudflare&#xA;Vary: Accept-Encoding&#xA;Strict-Transport-Security: max-age=31536000; includeSubDomains&#xA;Referrer-Policy: origin&#xA;Access-Control-Allow-Origin: https://prodconfluence.vansahnode.app&#xA;Access-Control-Allow-Methods: GET, POST, OPTIONS, PUT, PATCH, DELETE&#xA;Access-Control-Allow-Headers: X-Requested-With,content-type&#xA;Access-Control-Allow-Credentials: true&#xA;X-acpt: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb20udmFuc2FoLmppcmEudmFuc2FoLXBsdWdpbiIsImlhdCI6MTcxMjk0NjQ5Miwic3ViIjoiNjE5ZGMzNmJkNTk4NmMwMDZhZDE3YjVlIiwiZXhwIjoyNzEyOTQ2NDkyLCJhdWQiOlsiOWZmZDNiNTEtM2E2Ni0zZmU1LTg1OTMtNWM4MmY4NTFhMzdjIl0sInR5cGUiOiJjb25uZWN0In0.4-vGVaVeS-xWCw6VSmH4aW6U-1torDWrGU1T3gm_mDE&#xA;CF-Cache-Status: DYNAMIC&#xA;Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v4?s=crK2uRO3CAwjPt0LpFyGwCA6pCSiNHntzIH0jSI2NwcLdTWc0l3UwOry73XG6XgCPBIt0pxVwPuikn4k7B37CZrL4RczMG4I2sdtaLX20KV62iUNK%2FIVrRzEZiJv6hU5adY66qU%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}&#xA;NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}&#xA;CF-RAY: 87354657aed88977-SIN&#xA;alt-svc: h3=&quot;:443&quot;; ma=86400&#xA;&#xA;"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{2052BBA2-8FA1-4429-8DC0-81E9A32FBC91}"/>
+			<Prp name="unit 1" type="S" value="{8FC0F36D-75E1-43D5-8B68-B2B608DFDC0B}"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

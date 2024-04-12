@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}" version="1400" key="{638C2624-DFA8-4071-ABB8-8E5B23012B3B}" typeId="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}">
+	<config nodeName="Events" tlbHistory="&quot;TestComplete general events&quot;" />
+	<testData />
+	<data />
+	<children>
+		<child key="{3051ABEF-3AFA-4ADB-ADD4-C7A4BFE773E3}">
+			<config nodeName="EventControl" lastOpenedTLB="" generatedCLSID="{9D997F6F-6608-40A6-80F2-F61CF110DDCE}" generatedTLBKey="{1E7A5CA0-7453-446E-9514-B5EFAB15D80A}" generatedEventsKey="{F89B7AAA-27D1-46D3-B300-33F75A8EA8F1}" generatedTLBDesc="TestComplete EventControl1 Control - 11-04-2024 21:17:15">
+				<eventInfo infoTLBVer="version.dll" infoGUID="{F5856842-4323-49FD-B806-36E22179EF8A}" infoID="1610743809" infoControlName="Test Engine Events" infoEventName="OnStopTest" infoEventRealName="OnStopTest" infoDescription="Occurs when TestComplete stops running a test or when the execution of a test item is over." />
+				<handlerInfo handlerName="EventControl_OnStopTest" handlerMoniker="{8FC0F36D-75E1-43D5-8B68-B2B608DFDC0B}EventControl_OnStopTest" handlerEventName="OnStopTest" handlerRealIID="{F5856842-4323-49FD-B806-36E22179EF8A}" handlerRealDispID="1610743809" />
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>

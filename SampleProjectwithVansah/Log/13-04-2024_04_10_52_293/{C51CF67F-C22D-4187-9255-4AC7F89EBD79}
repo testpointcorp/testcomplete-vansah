@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 5">
+			<Prp name="message" type="S" value="The 'POST' request to 'https://prod.vansahnode.app/api/v1/run' was sent with the status code 200."/>
+			<Prp name="date" type="D" value="45395.174301412"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Response status text: OK&#xA;&#xA;Response body:&#xA;{&quot;success&quot;:true,&quot;message&quot;:&quot;A new Test Run created.&quot;,&quot;data&quot;:{&quot;run&quot;:{&quot;identifier&quot;:&quot;04731d53-f8f8-11ee-8ddc-d2c3b1f346d8&quot;,&quot;caseTestRunVersion&quot;:2,&quot;key&quot;:284,&quot;createdAt&quot;:1712945460,&quot;updatedAt&quot;:1712945460,&quot;createdBy&quot;:{&quot;jiraAccountId&quot;:&quot;619dc36bd5986c006ad17b5e&quot;},&quot;updatedBy&quot;:{&quot;jiraAccountId&quot;:&quot;619dc36bd5986c006ad17b5e&quot;},&quot;logs&quot;:[],&quot;overallResult&quot;:{&quot;id&quot;:3,&quot;name&quot;:&quot;UNTESTED&quot;},&quot;properties&quot;:{&quot;environment&quot;:null,&quot;release&quot;:null,&quot;sprint&quot;:null},&quot;asset&quot;:{&quot;identifier&quot;:&quot;e1998913-ecef-11ee-8ddc-d2c3b1f346d8&quot;,&quot;name&quot;:&quot;TEST-2&quot;,&quot;type&quot;:&quot;issue&quot;}}}}&#xA;&#xA;All response headers:&#xA;Connection: keep-alive&#xA;Date: Fri, 12 Apr 2024 18:11:00 GMT&#xA;Content-Length: 523&#xA;Content-Type: application/json; charset=utf-8&#xA;ETag: W/&quot;20b-yTE3TclqTTGeE8n93vd2EGBx0EQ&quot;&#xA;Server: cloudflare&#xA;Vary: Accept-Encoding&#xA;Strict-Transport-Security: max-age=31536000; includeSubDomains&#xA;Referrer-Policy: origin&#xA;Access-Control-Allow-Origin: https://prodconfluence.vansahnode.app&#xA;Access-Control-Allow-Methods: GET, POST, OPTIONS, PUT, PATCH, DELETE&#xA;Access-Control-Allow-Headers: X-Requested-With,content-type&#xA;Access-Control-Allow-Credentials: true&#xA;X-acpt: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb20udmFuc2FoLmppcmEudmFuc2FoLXBsdWdpbiIsImlhdCI6MTcxMjk0NTQ1OCwic3ViIjoiNjE5ZGMzNmJkNTk4NmMwMDZhZDE3YjVlIiwiZXhwIjoyNzEyOTQ1NDU4LCJhdWQiOlsiOWZmZDNiNTEtM2E2Ni0zZmU1LTg1OTMtNWM4MmY4NTFhMzdjIl0sInR5cGUiOiJjb25uZWN0In0.cxCzoUv0F66Ow9udLKKBo_MgjP9AWCxAjXHsWuBHDdI&#xA;CF-Cache-Status: DYNAMIC&#xA;Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v4?s=azqEeRsrud8u%2FUTTOq81C5XSYn106Blc0XrD%2F%2BV6I3QUOOPebXbwTcQFa0nvMi5OrHWhdpzGxn2hQ0It1GwH8CSfkZxG0KPO1ZmeR2LUEM9Le%2Fc8vYT2IAQhXeM2Dqg9jrrgqfY%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}&#xA;NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}&#xA;CF-RAY: 87352d1a2d8b5c2e-SIN&#xA;alt-svc: h3=&quot;:443&quot;; ma=86400&#xA;&#xA;"/>
+			<Prp name="line no" type="I" value="17"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 7">
+			<Prp name="message" type="S" value="Response Body: {&quot;success&quot;:true,&quot;message&quot;:&quot;A new Test Run created.&quot;,&quot;data&quot;:{&quot;run&quot;:{&quot;identifier&quot;:&quot;04731d53-f8f8-11ee-8ddc-d2c3b1f346d8&quot;,&quot;caseTestRunVersion&quot;:2,&quot;key&quot;:284,&quot;createdAt&quot;:1712945460,&quot;updatedAt&quot;:1712945460,&quot;createdBy&quot;:{&quot;jiraAccountId&quot;:&quot;619dc36bd5986c006ad17b5e&quot;},&quot;updatedBy&quot;:{&quot;jiraAccountId&quot;:&quot;619dc36bd5986c006ad17b5e&quot;},&quot;logs&quot;:[],&quot;overallResult&quot;:{&quot;id&quot;:3,&quot;name&quot;:&quot;UNTESTED&quot;},&quot;properties&quot;:{&quot;environment&quot;:null,&quot;release&quot;:null,&quot;sprint&quot;:null},&quot;asset&quot;:{&quot;identifier&quot;:&quot;e1998913-ecef-11ee-8ddc-d2c3b1f346d8&quot;,&quot;name&quot;:&quot;TEST-2&quot;,&quot;type&quot;:&quot;issue&quot;}}}}"/>
+			<Prp name="date" type="D" value="45395.1743015394"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="line no" type="I" value="21"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 3">
+			<Prp name="message" type="S" value="Endpoint: https://prod.vansahnode.app/api/v1/run"/>
+			<Prp name="date" type="D" value="45395.1742693982"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="message" type="S" value="Sending the 'POST' request to 'https://prod.vansahnode.app/api/v1/run'."/>
+			<Prp name="date" type="D" value="45395.1742696412"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="line no" type="I" value="17"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 1">
+			<Prp name="message" type="S" value="TestCaseKey: TEST-C9"/>
+			<Prp name="date" type="D" value="45395.1742693519"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{B4B32AE3-911A-42BA-B461-8F1B67D29F5F}"/>
+			<Prp name="unit 1" type="S" value="{8FC0F36D-75E1-43D5-8B68-B2B608DFDC0B}"/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="message" type="S" value="Response Status Code: 200"/>
+			<Prp name="date" type="D" value="45395.1743014931"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="line no" type="I" value="20"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="message" type="S" value="Navigating to the https://www.google.com/ page."/>
+			<Prp name="date" type="D" value="45395.174267338"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="URL: https://www.google.com/&#xA;&#xA;Aliases.browser"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="message" type="S" value="AssetKey: TEST-2"/>
+			<Prp name="date" type="D" value="45395.174269375"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

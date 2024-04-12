@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="VansahTests" key="{8FC0F36D-75E1-43D5-8B68-B2B608DFDC0B}" path="VansahTests.js" />
+	</children>
+</Root>

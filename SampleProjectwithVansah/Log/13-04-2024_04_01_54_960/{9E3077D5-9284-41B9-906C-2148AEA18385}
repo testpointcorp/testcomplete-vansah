@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row1">
+				<Prp name="name" type="S" value="ProjectTestItem1 [KeywordTests - verify_google_search_functionality]"/>
+				<Prp name="details" type="S" value="{BD527899-B626-4B18-842C-F955A50C8A1F}"/>
+				<Prp name="start time" type="D" value="45395.1680497569"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="end time" type="D" value="45395.1681064815"/>
+			</Node>
+			<Node name="row0">
+				<Prp name="name" type="S" value="ProjectTestItem2 [KeywordTests - verfiy_google_webapp]"/>
+				<Prp name="details" type="S" value="{E9E8CF68-052B-4CFB-8FF5-58D5FC23E212}"/>
+				<Prp name="start time" type="D" value="45395.1679973958"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="end time" type="D" value="45395.1680496991"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

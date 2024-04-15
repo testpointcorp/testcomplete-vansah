@@ -27,25 +27,34 @@
 			<Node name="variables">
 				<Node name="datav4">
 					<Node name="var0">
-						<Prp name="name" type="S" value="Vansah_URL"/>
-					</Node>
-					<Node name="var1">
-						<Prp name="name" type="S" value="SprintName"/>
-					</Node>
-					<Node name="var2">
-						<Prp name="name" type="S" value="ReleaseName"/>
-					</Node>
-					<Node name="var3">
-						<Prp name="name" type="S" value="EnvironmentName"/>
-					</Node>
-					<Node name="var4">
-						<Prp name="name" type="S" value="VansahResult"/>
-					</Node>
-					<Node name="var5">
 						<Prp name="name" type="S" value="testCaseKey"/>
 					</Node>
-					<Node name="var6">
+					<Node name="var1">
 						<Prp name="name" type="S" value="assetkey"/>
+					</Node>
+					<Node name="var2">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value=" "/>
+						</Node>
+						<Prp name="name" type="S" value="Vansah_URL"/>
+					</Node>
+					<Node name="var3">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value=" "/>
+						</Node>
+						<Prp name="name" type="S" value="SprintName"/>
+					</Node>
+					<Node name="var4">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value=" "/>
+						</Node>
+						<Prp name="name" type="S" value="ReleaseName"/>
+					</Node>
+					<Node name="var5">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value=" "/>
+						</Node>
+						<Prp name="name" type="S" value="EnvironmentName"/>
 					</Node>
 				</Node>
 				<Prp name="version" type="I" value="4"/>

@@ -9,12 +9,12 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{F0EDD992-8D27-44BE-80E0-467B8AD5C1FE}" version="14">
 		<children>
-			<testItem name="ProjectTestItem2" key="{9A942453-1B26-4993-AFE0-124F5D32D398}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B4B32AE3-911A-42BA-B461-8F1B67D29F5F}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="ProjectTestItem1" key="{FA9D37B4-E3E6-4B40-820B-04CA3ADE5891}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2052BBA2-8FA1-4429-8DC0-81E9A32FBC91}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="ProjectTestItem1" key="{FA9D37B4-E3E6-4B40-820B-04CA3ADE5891}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2052BBA2-8FA1-4429-8DC0-81E9A32FBC91}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="ProjectTestItem2" key="{9A942453-1B26-4993-AFE0-124F5D32D398}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B4B32AE3-911A-42BA-B461-8F1B67D29F5F}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -24,26 +24,23 @@
 	<variables key="{E2D837FB-61BF-4432-B9E5-4E4B2C53D33B}">
 		<data Version="4">
 			<Items>
-				<Variable Name="Vansah_URL" Type="String" Local="False" Descr="Required : Obtain your Vansah Connect URL from Vansah Settings &gt; Vansah API Tokens ">
-					<DefValue StrValue="https://prod.vansahnode.app/api/v1/run" />
+				<Variable Name="testCaseKey" Type="String" Local="False" Descr="Required : This value will get updated during runtime">
+					<DefValue />
 				</Variable>
-				<Variable Name="SprintName" Type="String" Local="False" Descr="Optional : Provide your Sprint Name">
+				<Variable Name="assetkey" Type="String" Local="False" Descr="Required : This value will get updated during runtime">
+					<DefValue />
+				</Variable>
+				<Variable Name="Vansah_URL" Type="String" Local="True" Descr="Required : Obtain your Vansah Connect URL from Vansah Settings &gt; Vansah API Tokens ">
+					<DefValue StrValue="https://prod.vansahnode.app" />
+				</Variable>
+				<Variable Name="SprintName" Type="String" Local="True" Descr="Optional : Provide your Sprint Name">
 					<DefValue StrValue="SM Sprint 1" />
 				</Variable>
-				<Variable Name="ReleaseName" Type="String" Local="False" Descr="Optional : Provide your Release Name">
+				<Variable Name="ReleaseName" Type="String" Local="True" Descr="Optional : Provide your Release Name">
 					<DefValue StrValue="Release 24" />
 				</Variable>
-				<Variable Name="EnvironmentName" Type="String" Local="False" Descr="Optional : Provide your Environment Name">
+				<Variable Name="EnvironmentName" Type="String" Local="True" Descr="Optional : Provide your Environment Name">
 					<DefValue StrValue="UAT" />
-				</Variable>
-				<Variable Name="VansahResult" Type="Boolean" Local="False" Descr="Required: To be used by sendResultstoVansah function">
-					<DefValue BoolValue="True" />
-				</Variable>
-				<Variable Name="testCaseKey" Type="String" Local="False">
-					<DefValue />
-				</Variable>
-				<Variable Name="assetkey" Type="String" Local="False">
-					<DefValue />
 				</Variable>
 			</Items>
 		</data>

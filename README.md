@@ -1,6 +1,6 @@
-# TestComplete Integration with Vansah Test Management for Jira
+# TestComplete Integration with Vansah Test Management For Jira
 
-This tutorial guides you through the process of integrating TestComplete tests with Vansah Test Management for Jira. Integrating TestComplete with Vansah will allow you to send Test Case results from TestComplete to your Jira workspace.
+This tutorial guides you through the process of integrating TestComplete tests with Vansah Test Management For Jira. Integrating TestComplete with Vansah will allow you to send Test Case results from TestComplete to your Jira workspace.
 
 By following this setup, you can streamline your testing workflow, ensuring that test outcomes are recorded directly in your Jira workspace.
 
@@ -56,7 +56,7 @@ To enable Vansah integration in TestComplete project, follow these steps:
     var testCaseKey = Project.Variables.testCaseKey; 
     var assetKey = Project.Variables.assetKey;
   
-      // Set Test Run Properties
+      // Set Test Run Properties (Optional)
     var sprintName = Project.Variables.GetVariableDefaultValue('SprintName');
     var releaseName = Project.Variables.GetVariableDefaultValue('ReleaseName');
     var environmentName = Project.Variables.GetVariableDefaultValue('EnvironmentName');
@@ -79,7 +79,7 @@ To enable Vansah integration in TestComplete project, follow these steps:
       properties = `"properties": {${properties}}, `;
     }
 
-    // Determine asset based on its type
+    // Determine asset (Test Folder or Jira Issue) based on its type
     var assetType;
     var assetIdentifier;
     if (assetKey.split('-').length > 2) {

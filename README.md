@@ -33,7 +33,7 @@ source ~/.bashrc
 ## Implementation
 To enable Vansah integration in TestComplete project, follow these steps:
 
-### Create Vairables at Project Level Scope 
+### Create Variables at Project Level Scope 
  - Add `testCaseKey` and `assetKey` under Temporary Variables of the Project. (Variable Names are case-sensitive)
  - Add `Vansah_URL`, `SprintName`, `ReleaseName` and `EnvironmentName` under Persistent Variables of the Project. (Variable Names are case-sensitive) 
     ![VansahVariablesinDefault](/Asset/project_variables.jpg)
